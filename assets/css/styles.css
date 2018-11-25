@@ -121,6 +121,9 @@
       padding: 20px 0px; }
 
 @media only screen and (max-width: 768px) {
+  #content {
+    width: 100%; }
+
   .navbar-light {
     padding: 0px; }
     .navbar-light .navbar-brand {
@@ -390,7 +393,6 @@ body {
     color: #947848; }
 
 #content {
-  width: 80%;
   border: 3px solid #CDD1CF;
   border-radius: 5px;
   margin: 10px auto;

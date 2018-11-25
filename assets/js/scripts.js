@@ -4,14 +4,12 @@ function scrollFunction() {
     if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
         $("#navbar").addClass("animated slideInDown fixed-top");
         $("#navbar").css({
-            "width": "80%",
             "border-left": "3px solid #CDD1CF",
             "border-right": "3px solid #CDD1CF"
         })
     } else {
         $("#navbar").removeClass("animated slideInDown fixed-top");
         $("#navbar").css({
-            "width": "auto",
             "border-left": "none",
             "border-right": "none"
         })
