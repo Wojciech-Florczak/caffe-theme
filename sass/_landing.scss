@@ -1,0 +1,104 @@
+/* Slider */
+.slider {
+    img {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 15px;
+        padding-top: 10px; 
+    }
+}
+
+/* Welcome section */
+#welcome {
+    text-align: center;
+    h1 {
+        font-size: 3rem;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+    img {
+        width: 120px;
+        height: 120px;
+        padding-bottom: 20px;
+    }
+    .container {
+        h3:nth-child(1) {
+            font-family: $fontOfficial;
+            letter-spacing: 4px;
+        }
+    }
+    .row {
+        h2 {
+            text-transform: uppercase;
+            font-size: 1.6rem;
+        }
+    }
+    > div:first-child > h2 {
+        font-size: 1.2rem;
+        color: $fontSecondary;
+        width: 50%;
+        margin: 0 auto;
+        padding-bottom: 2rem;
+    }
+}
+/* Tradition section */
+#tradition {
+    padding: 2rem 0;
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+    div:nth-child(2) {
+        padding: 3rem;
+        text-align: center;
+        h1 {
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 8px;
+        }
+        h2 {
+            font-family: $fontOfficial;
+            font-weight: 400;
+        }
+        h3 {
+            font-size: 1rem;
+            color: $fontPrimary;
+        }
+        img {
+            width: 32px;
+            height: 32px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}
+/* Customers section */
+#customers {
+    text-align: center;
+    padding:  2rem 0;
+    .container {
+        width: 60%;
+        h2 {
+            font-size: 1.5rem;
+            letter-spacing: 4px;
+            &:nth-child(1){
+                margin-bottom: 0px;
+            }
+            &:nth-child(4){
+                font-family: $fontOfficial;
+            };
+        }
+        p {
+            margin: 1rem;
+        }
+        i {
+            padding-top: 0px;
+            padding-bottom: 2rem;
+            color: $fontPrimary;
+            font-size: 3.5rem;
+            font-weight: 800;
+            font-family: sans-serif;
+        }
+    }
+}

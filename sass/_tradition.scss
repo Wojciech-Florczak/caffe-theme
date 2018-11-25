@@ -1,0 +1,95 @@
+#tradition-text {
+    line-height: 1.6;
+    span {
+        background: #947848;
+        color: white;
+        border-radius: 5px;
+        padding: 0.3rem 0.7rem;
+        margin: auto 0.3rem;
+    }
+    h2 {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+    .row {
+        margin: 0.6rem;
+    }
+}
+#manager {
+    font-size: 0.9rem;
+    margin: 3rem auto;
+    img {
+        width: 100%;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 0.9rem;
+        color: #BCBCBC;
+    }
+    hr {
+        width: 40%;
+        margin: 1rem 0rem;
+        background: $fontPrimary;
+    }
+    div {
+        div:nth-child(3){
+            p {
+                padding-left: 1rem;
+            }
+            div {
+                font-family: $fontOfficial;
+                font-size: 1.2rem;
+                color: black;
+                background: #FAFAFA;
+                vertical-align: middle;
+                margin: 1rem auto;
+                padding: 2rem 2rem;
+                border-left: 1px $fontSecondary solid;
+            }
+            .links {
+                margin: 1.5rem auto;
+                padding: 0rem;
+                border: none;
+                a {
+                    background: #F0F0F0;
+                    color: black;
+                    text-decoration: none;
+                    padding: 0.6rem;
+                    &:hover {
+                        color: $fontPrimary;
+                    }
+                }
+            }
+        }
+    }
+    p:nth-child(4) {
+        color: $fontPrimary;
+    }
+}
+#content #statistics {
+    display: block;
+    padding: 8% 10%;
+    background: #F2EFE6;
+    img {
+        display: block;
+        width: 100px; height: 100px;
+        margin: 0 auto;
+        padding-bottom: 0.5rem;
+    }
+    span {
+        display: block;
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: $fontPrimary;
+    }
+    h3 {
+        display: block;
+        font-size: 0.9rem;
+        color: #ABABAA;
+    }
+}

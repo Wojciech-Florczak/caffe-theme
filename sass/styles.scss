@@ -1,0 +1,43 @@
+@import 'variables';
+@import 'animations';
+@import 'icons';
+@import 'partials';
+@import 'mobile';
+@import 'landing';
+@import 'menu';
+@import 'tradition';
+@import 'our-local';
+
+body {
+    background-image: url("../images/bg.jpg");
+    background-repeat: repeat;
+    color: $fontSecondary;
+    font-family: $fontDefault;
+    img {
+        border-radius: 5px;
+    }
+    h1 {
+        color: $fontPrimary;
+    }
+    h2 {
+        color: $fontPrimary;
+    }
+}
+#content {
+    width: 80% ;
+    border: 3px solid #CDD1CF;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    background: white;
+}
+
+.btn {
+    background: transparent;
+    border: 1px $fontPrimary solid;
+    padding: 7px 20px;
+    text-transform: uppercase;
+    color: $fontPrimary;
+    font-weight: 500;
+}
