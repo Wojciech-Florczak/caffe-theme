@@ -132,7 +132,34 @@
       margin: 0 auto;
       line-height: 100%; }
     .navbar-light button {
-      margin-right: 1rem; } }
+      margin-right: 1rem; }
+
+  #welcome div:first-child h2 {
+    width: 100% !important; }
+
+  #customers div {
+    width: 100% !important; }
+  #customers button {
+    padding: 1rem !important; }
+
+  #tradition div div:nth-child(2) {
+    padding: 1rem !important; }
+
+  .menu div div:first-child {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important; }
+
+  #manager div div:nth-child(1) img {
+    padding: 1.5rem !important;
+    margin: 0 auto !important; }
+  #manager div div:nth-child(3) {
+    margin: 0 auto; }
+
+  #info div div:first-child div.row div:first-child {
+    padding-left: 1rem !important; }
+
+  #form .banner p {
+    width: 80% !important; } }
 /* Slider */
 .slider img {
   width: 100%;
@@ -326,6 +353,9 @@
     font-size: 0.9rem;
     color: #ABABAA; }
 
+#info h1 {
+  font-size: 1.8rem;
+  text-transform: uppercase; }
 #info div.row:first-child {
   margin: 3rem 0rem;
   font-size: 0.9rem; }
@@ -338,6 +368,7 @@
       color: #947848;
       font-size: 0.9rem; }
 #info .accordion {
+  margin-bottom: 2rem;
   border-left: 1px solid lightgray; }
   #info .accordion div.card {
     background: transparent;

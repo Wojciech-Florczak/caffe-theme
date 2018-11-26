@@ -14,4 +14,69 @@
             margin-right: 1rem;
         }
     }
+    //  Landing
+    #welcome {
+        div:first-child {
+            h2 {
+                width: 100% !important;
+            }
+        }
+    }
+    #customers {
+        div {
+            width: 100% !important;
+        }
+        button {
+            padding: 1rem !important;
+        }
+    }
+    #tradition {
+        div {
+            div:nth-child(2) {
+                padding: 1rem !important;
+            }
+        }
+    }
+    //  Menu
+    .menu {
+        div {
+            div:first-child {
+                padding-top: 1.5rem !important;
+                padding-bottom: 1.5rem !important;
+            }
+        }
+    }
+    // Tradition
+    #manager {
+        div{
+            div:nth-child(1) {
+                img {
+                    padding: 1.5rem !important;
+                    margin: 0 auto !important;
+                }
+            }
+            div:nth-child(3) {
+                margin: 0 auto;
+            }
+        } 
+    }
+    // Our Local
+    #info {
+        div {
+            div:first-child {
+                div.row {
+                    div:first-child {
+                        padding-left: 1rem !important;
+                    }
+                }
+            }
+        }
+    }
+    #form {
+        .banner {
+            p {
+                width: 80% !important;
+            }
+        }
+    }
 }

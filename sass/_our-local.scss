@@ -1,4 +1,8 @@
 #info {
+    h1 {
+        font-size: 1.8rem;
+        text-transform: uppercase;
+    }
     div.row:first-child {
         margin: 3rem 0rem;
         font-size: 0.9rem;
@@ -19,6 +23,7 @@
     }
     }
     .accordion { 
+        margin-bottom: 2rem;
         border-left: 1px solid lightgray;
         div.card {
             background: transparent;
