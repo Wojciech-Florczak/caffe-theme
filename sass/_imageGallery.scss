@@ -1,0 +1,80 @@
+#img-gallery-1 {
+    text-align: center;
+    div {
+        div {
+            // Left column with text
+            div:nth-child(1) {
+                h1 {
+                    font-family: $fontOfficial;
+                    font-size: 1.9rem;
+                    width: 50%;
+                    padding-top: 2rem;
+                    margin: 3rem auto;
+                }
+                p {
+                    font-size: 0.9rem;
+                    &:nth-child(3) {
+                        color: $fontPrimary;
+                    }
+                }
+                span {
+                    img {
+                        padding-bottom: 2rem;
+                    }
+                }
+            }
+            // Right column with images
+            div:nth-child(2) {
+                img {
+                    width: 100%;
+                }
+                .row {
+                    .col {
+                        padding: .75rem;
+                    }
+                }
+          
+            }
+        }
+    }
+}
+#img-gallery-2 {
+    text-align: center;
+    div {
+        div {
+            // Right column with images
+            div:nth-child(1) {
+                    img {
+                        width: 100%;
+                    }
+                    .row {
+                        .col {
+                            padding: .75rem;
+                        }
+                    }
+                
+                }
+            // Left column with text
+            div:nth-child(2) {
+                h1 {
+                    font-family: $fontOfficial;
+                    font-size: 1.9rem;
+                    width: 50%;
+                    padding-top: 2rem;
+                    margin: 3rem auto;
+                }
+                p {
+                    font-size: 0.9rem;
+                    &:nth-child(3) {
+                        color: $fontPrimary;
+                    }
+                }
+                span {
+                    img {
+                        padding-bottom: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}

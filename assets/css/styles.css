@@ -415,6 +415,44 @@
     margin: 0 auto;
     width: 50%; }
 
+#img-gallery-1 {
+  text-align: center; }
+  #img-gallery-1 div div div:nth-child(1) h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 1.9rem;
+    width: 50%;
+    padding-top: 2rem;
+    margin: 3rem auto; }
+  #img-gallery-1 div div div:nth-child(1) p {
+    font-size: 0.9rem; }
+    #img-gallery-1 div div div:nth-child(1) p:nth-child(3) {
+      color: #947848; }
+  #img-gallery-1 div div div:nth-child(1) span img {
+    padding-bottom: 2rem; }
+  #img-gallery-1 div div div:nth-child(2) img {
+    width: 100%; }
+  #img-gallery-1 div div div:nth-child(2) .row .col {
+    padding: .75rem; }
+
+#img-gallery-2 {
+  text-align: center; }
+  #img-gallery-2 div div div:nth-child(1) img {
+    width: 100%; }
+  #img-gallery-2 div div div:nth-child(1) .row .col {
+    padding: .75rem; }
+  #img-gallery-2 div div div:nth-child(2) h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 1.9rem;
+    width: 50%;
+    padding-top: 2rem;
+    margin: 3rem auto; }
+  #img-gallery-2 div div div:nth-child(2) p {
+    font-size: 0.9rem; }
+    #img-gallery-2 div div div:nth-child(2) p:nth-child(3) {
+      color: #947848; }
+  #img-gallery-2 div div div:nth-child(2) span img {
+    padding-bottom: 2rem; }
+
 body {
   background-image: url("../images/bg.jpg");
   background-repeat: repeat;
