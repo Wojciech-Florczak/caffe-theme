@@ -149,6 +149,11 @@
     padding-top: 1.5rem !important;
     padding-bottom: 1.5rem !important; }
 
+  #img-gallery-2 div div div:nth-child(1) {
+    order: 2; }
+  #img-gallery-2 div div div:nth-child(2) {
+    order: 1; }
+
   #manager div div:nth-child(1) img {
     padding: 1.5rem !important;
     margin: 0 auto !important; }
@@ -159,7 +164,17 @@
     padding-left: 1rem !important; }
 
   #form .banner p {
-    width: 80% !important; } }
+    width: 80% !important; }
+
+  #footer h1 {
+    text-align: center; }
+  #footer div:nth-child(2) > div > div:nth-child(3) > h1 {
+    text-align: left; }
+  #footer div:nth-child(2) > div > div.col.col-12.col-lg-6 > div > ul:nth-child(1) {
+    padding-left: 1rem; }
+  #footer #links {
+    padding: 0rem;
+    text-align: center; } }
 /* Slider */
 .slider img {
   width: 100%;

@@ -46,6 +46,20 @@
             }
         }
     }
+//  Gallery
+    #img-gallery-2 {
+        div{
+            div {
+                div:nth-child(1) {
+                    order: 2;
+                }
+                div:nth-child(2) {
+                    order: 1;
+                }
+            }
+        }
+    }
+
     // Tradition
     #manager {
         div{
@@ -77,6 +91,24 @@
             p {
                 width: 80% !important;
             }
+        }
+    }
+    //  Footer
+    #footer {
+        h1 {
+            text-align: center;
+        }
+        //  Mission
+        div:nth-child(2) > div > div:nth-child(3) > h1 {
+            text-align: left;
+        }
+        //  Links
+        div:nth-child(2) > div > div.col.col-12.col-lg-6 > div > ul:nth-child(1) {
+            padding-left: 1rem;
+        }
+        #links {
+            padding: 0rem;
+            text-align: center;
         }
     }
 }
