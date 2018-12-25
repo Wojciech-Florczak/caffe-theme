@@ -115,8 +115,10 @@
     margin-top: 2rem;
     background: #CDD1CF; }
     #footer #copyright h1 {
-      font-size: 1rem;
+      color: black;
+      font-size: 0.8rem;
       text-align: center;
+      text-transform: none;
       margin-bottom: 0px;
       padding: 20px 0px; }
 
@@ -165,6 +167,8 @@
 
   #form .banner p {
     width: 80% !important; }
+  #form form {
+    width: 95% !important; }
 
   #footer h1 {
     text-align: center; }

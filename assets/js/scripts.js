@@ -28,6 +28,16 @@ function(){
 
 var path = (window.location.pathname);
 
+if(path.indexOf("index.html") >= 0 ) {
+    // $(".slider-col-1 .row .col img").click(function() {
+    //     $(this).slideUp( 300 ).delay( 800 ).slideDown( 400 );
+    //     $(this).addClass("animated flipOutX")
+    //     $(this).attr('src', 'https://via.placeholder.com/1200x700')
+    //     $(this).removeClass("animated flipOutX")
+    //     $(this).addClass("animated flipInX")
+    // })
+}
+
 // Accordion
 // This code runs only on "Our Local" page
 if(path.indexOf("our-local.html") >= 0 ){
